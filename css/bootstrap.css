@@ -9,12 +9,9 @@
 html {
     font-family: sans-serif;
     -webkit-text-size-adjust: 100%;
-    -ms-text-size-adjust: 100%
+    -ms-text-size-adjust: 100%;
 }
 
-body {
-    margin: 0
-}
 
 article,
 aside,
@@ -29,57 +26,54 @@ menu,
 nav,
 section,
 summary {
-    display: block
+    display: block;
 }
 
 audio,
 canvas,
 progress,
 video {
-    display: inline-block;
-    vertical-align: baseline
+    /* display: inline-block; */
+    vertical-align: baseline;
 }
 
 audio:not([controls]) {
     display: none;
-    height: 0
+    height: 0;
 }
 
 [hidden],
 template {
-    display: none
+    display: none;
 }
 
-a {
-    background-color: transparent
-}
 
 a:active,
 a:hover {
-    outline: 0
+    outline: 0;
 }
 
 abbr[title] {
-    border-bottom: 1px dotted
+    border-bottom: 1px dotted;
 }
 
 b,
 strong {
-    font-weight: 700
+    font-weight: 700;
 }
 
 dfn {
-    font-style: italic
+    font-style: italic;
 }
 
 h1 {
     margin: .67em 0;
-    font-size: 2em
+    font-size: 2em;
 }
 
 mark {
     color: #000;
-    background: #ff0
+    background: rgb(255, 255, 0);
 }
 
 small {
@@ -91,38 +85,38 @@ sup {
     position: relative;
     font-size: 75%;
     line-height: 0;
-    vertical-align: baseline
+    vertical-align: baseline;
 }
 
 sup {
-    top: -.5em
+    top: -.5em;
 }
 
 sub {
-    bottom: -.25em
+    bottom: -.25em;
 }
 
 img {
-    border: 0
+    border: 0;
 }
 
 svg:not(:root) {
-    overflow: hidden
+    overflow: hidden;
 }
 
 figure {
-    margin: 1em 40px
+    margin: 1em 40px;
 }
 
 hr {
     height: 0;
     -webkit-box-sizing: content-box;
     -moz-box-sizing: content-box;
-    box-sizing: content-box
+    box-sizing: content-box;
 }
 
 pre {
-    overflow: auto
+    overflow: auto;
 }
 
 code,
@@ -130,7 +124,7 @@ kbd,
 pre,
 samp {
     font-family: monospace, monospace;
-    font-size: 1em
+    font-size: 1em;
 }
 
 button,
@@ -140,16 +134,16 @@ select,
 textarea {
     margin: 0;
     font: inherit;
-    color: inherit
+    color: inherit;
 }
 
 button {
-    overflow: visible
+    overflow: visible;
 }
 
 button,
 select {
-    text-transform: none
+    text-transform: none;
 }
 
 button,
@@ -157,22 +151,22 @@ html input[type=button],
 input[type=reset],
 input[type=submit] {
     -webkit-appearance: button;
-    cursor: pointer
+    cursor: pointer;
 }
 
 button[disabled],
 html input[disabled] {
-    cursor: default
+    cursor: default;
 }
 
 button::-moz-focus-inner,
 input::-moz-focus-inner {
     padding: 0;
-    border: 0
+    border: 0;
 }
 
 input {
-    line-height: normal
+    line-height: normal;
 }
 
 input[type=checkbox],
@@ -180,53 +174,53 @@ input[type=radio] {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-    padding: 0
+    padding: 0;
 }
 
 input[type=number]::-webkit-inner-spin-button,
 input[type=number]::-webkit-outer-spin-button {
-    height: auto
+    height: auto;
 }
 
 input[type=search] {
     -webkit-box-sizing: content-box;
     -moz-box-sizing: content-box;
     box-sizing: content-box;
-    -webkit-appearance: textfield
+    -webkit-appearance: textfield;
 }
 
 input[type=search]::-webkit-search-cancel-button,
 input[type=search]::-webkit-search-decoration {
-    -webkit-appearance: none
+    -webkit-appearance: none;
 }
 
 fieldset {
     padding: .35em .625em .75em;
     margin: 0 2px;
-    border: 1px solid silver
+    border: 1px solid silver;
 }
 
 legend {
     padding: 0;
-    border: 0
+    border: 0;
 }
 
 textarea {
-    overflow: auto
+    overflow: auto;
 }
 
 optgroup {
-    font-weight: 700
+    font-weight: 700;
 }
 
 table {
     border-spacing: 0;
-    border-collapse: collapse
+    border-collapse: collapse;
 }
 
 td,
 th {
-    padding: 0
+    padding: 0;
 }
 
 /*! Source: https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css */
@@ -239,11 +233,11 @@ th {
         text-shadow: none !important;
         background: 0 0 !important;
         -webkit-box-shadow: none !important;
-        box-shadow: none !important
+        box-shadow: none !important;
     }
     a,
     a:visited {
-        text-decoration: underline
+        text-decoration: underline;
     }
     a[href]:after {
         content: " (" attr(href) ")"
@@ -258,55 +252,55 @@ th {
     blockquote,
     pre {
         border: 1px solid #999;
-        page-break-inside: avoid
+        page-break-inside: avoid;
     }
     thead {
-        display: table-header-group
+        display: table-header-group;
     }
     img,
     tr {
-        page-break-inside: avoid
+        page-break-inside: avoid;
     }
     img {
-        max-width: 100% !important
+        max-width: 100% !important;
     }
     h2,
     h3,
     p {
         orphans: 3;
-        widows: 3
+        widows: 3;
     }
     h2,
     h3 {
-        page-break-after: avoid
+        page-break-after: avoid;
     }
     .navbar {
-        display: none
+        display: none;
     }
     .btn>.caret,
     .dropup>.btn>.caret {
-        border-top-color: #000 !important
+        border-top-color: #000 !important;
     }
     .label {
-        border: 1px solid #000
+        border: 1px solid #000;
     }
     .table {
-        border-collapse: collapse !important
+        border-collapse: collapse !important;
     }
     .table td,
     .table th {
-        background-color: #fff !important
+        background-color: #fff !important;
     }
     .table-bordered td,
     .table-bordered th {
-        border: 1px solid #ddd !important
+        border: 1px solid #ddd !important;
     }
 }
 
 @font-face {
     font-family: 'Glyphicons Halflings';
     src: url(../fonts/glyphicons-halflings-regular.eot);
-    src: url(../fonts/glyphicons-halflings-regular.eot?#iefix) format('embedded-opentype'), url(../fonts/glyphicons-halflings-regular.woff2) format('woff2'), url(../fonts/glyphicons-halflings-regular.woff) format('woff'), url(../fonts/glyphicons-halflings-regular.ttf) format('truetype'), url(../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular) format('svg')
+    src: url(../fonts/glyphicons-halflings-regular.eot?#iefix) format('embedded-opentype'), url(../fonts/glyphicons-halflings-regular.woff2) format('woff2'), url(../fonts/glyphicons-halflings-regular.woff) format('woff'), url(../fonts/glyphicons-halflings-regular.ttf) format('truetype'), url(../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular) format('svg');
 }
 
 .glyphicon {
@@ -318,72 +312,72 @@ th {
     font-weight: 400;
     line-height: 1;
     -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale
+    -moz-osx-font-smoothing: grayscale;
 }
 
 .glyphicon-asterisk:before {
-    content: "\2a"
+    content: "\2a";
 }
 
 .glyphicon-plus:before {
-    content: "\2b"
+    content: "\2b";
 }
 
 .glyphicon-eur:before,
 .glyphicon-euro:before {
-    content: "\20ac"
+    content: "\20ac";
 }
 
 .glyphicon-minus:before {
-    content: "\2212"
+    content: "\2212";
 }
 
 .glyphicon-cloud:before {
-    content: "\2601"
+    content: "\2601";
 }
 
 .glyphicon-envelope:before {
-    content: "\2709"
+    content: "\2709";
 }
 
 .glyphicon-pencil:before {
-    content: "\270f"
+    content: "\270f";
 }
 
 .glyphicon-glass:before {
-    content: "\e001"
+    content: "\e001";
 }
 
 .glyphicon-music:before {
-    content: "\e002"
+    content: "\e002";
 }
 
 .glyphicon-search:before {
-    content: "\e003"
+    content: "\e003";
 }
 
 .glyphicon-heart:before {
-    content: "\e005"
+    content: "\e005";
 }
 
 .glyphicon-star:before {
-    content: "\e006"
+    content: "\e006";
 }
 
 .glyphicon-star-empty:before {
-    content: "\e007"
+    content: "\e007";
 }
 
 .glyphicon-user:before {
-    content: "\e008"
+    content: "\e008";
 }
 
 .glyphicon-film:before {
-    content: "\e009"
+    content: "\e009";
 }
 
 .glyphicon-th-large:before {
-    content: "\e010"
+    content: "\e010";
 }
 
 .glyphicon-th:before {
@@ -3228,6 +3222,11 @@ input[type=search] {
     margin-bottom: 15px
 }
 
+.form-control {
+    background-color: blue;
+    /* color: blue; */
+}
+
 .checkbox,
 .radio {
     position: relative;
@@ -4816,41 +4815,42 @@ textarea.input-group-sm>.input-group-btn>.btn {
 .input-group-btn>.btn:active,
 .input-group-btn>.btn:focus,
 .input-group-btn>.btn:hover {
-    z-index: 2
+    z-index: 2;
 }
 
 .input-group-btn:first-child>.btn,
 .input-group-btn:first-child>.btn-group {
-    margin-right: -1px
+    margin-right: -1px;
 }
 
 .input-group-btn:last-child>.btn,
 .input-group-btn:last-child>.btn-group {
     z-index: 2;
-    margin-left: -1px
+    margin-left: -1px;
 }
 
 .nav {
     padding-left: 0;
     margin-bottom: 0;
-    list-style: none
+    list-style: none;
 }
 
 .nav>li {
     position: relative;
-    display: block
+    display: block;
+
 }
 
 .nav>li>a {
     position: relative;
     display: block;
-    padding: 10px 15px
+    padding: 10px 15px;
 }
 
 .nav>li>a:focus,
 .nav>li>a:hover {
     text-decoration: none;
-    background-color: #eee
+    background-color: #eee;
 }
 
 .nav>li.disabled>a {
@@ -5189,7 +5189,6 @@ textarea.input-group-sm>.input-group-btn>.btn {
 .navbar-brand {
     float: left;
     height: 50px;
-    padding: 15px 15px;
     font-size: 18px;
     line-height: 20px
 }
@@ -7682,7 +7681,7 @@ button.close {
     margin: 1px;
     text-indent: -999px;
     cursor: pointer;
-    background-color: #000\9;
+    background-color: #0009;
     background-color: rgba(0, 0, 0, 0);
     border: 1px solid #fff;
     border-radius: 10px
@@ -7790,12 +7789,6 @@ button.close {
 .panel-body:after,
 .row:after {
     clear: both
-}
-
-.center-block {
-    display: block;
-    margin-right: auto;
-    margin-left: auto
 }
 
 .pull-right {
