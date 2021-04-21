@@ -1,7 +1,7 @@
 
 .black-background {
     background-color: rgba(165, 147, 99, 0.7);
-    padding: 40px 40px 40px 40px;
+    padding: 30px;
 }
 
 .bgc-white {
@@ -12,31 +12,34 @@
     background-color: #364577;
 }
 
+.bg-presentation,
 .bgc-atomic-tangerine {
     background-color: #F3976C;
 }
 
 .tc-white {
     color: #ffffff!important;
+    text-shadow: black 1.5px 1.5px 1.5px;
 }
 
-.btn-atomic-tangerine {
+.tc-blue {
+    color: #6ce3f3 !important;
+}
+
+.bold-link:hover {
+    color: #44a1ad !important;
+}
+
+.btn-clean {
     background: #F3976C;
     color: #FFFFFF!important;
 }
 
-.btn-atomic-tangerine:hover {
+.btn-clean:hover {
     background: #c27956!important;
     color: #FFFFFF!important;
 }
 
-.ltc-white {
-    color: #FFFFFF!important;
-}
-
-.ltc-white:hover {
-    color: #cccccc!important;
-}
 
 .ltc-atomic-tangerine {
     color: #F3976C!important;

@@ -1384,7 +1384,7 @@ html {
 
 body {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 1.42857143;
     color: #333;
     background-color: #fff
@@ -1616,7 +1616,7 @@ h6 {
 }
 
 p {
-    margin: 0 0 10px
+    margin: 12px
 }
 
 .lead {
@@ -1972,12 +1972,6 @@ pre code {
     overflow-y: scroll
 }
 
-.container {
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto
-}
 
 @media (min-width:768px) {
     .container {
@@ -4195,30 +4189,6 @@ fieldset[disabled] .btn-link:focus,
 fieldset[disabled] .btn-link:hover {
     color: #777;
     text-decoration: none
-}
-
-.btn-group-lg>.btn,
-.btn-lg {
-    padding: 10px 16px;
-    font-size: 18px;
-    line-height: 1.3333333;
-    border-radius: 6px
-}
-
-.btn-group-sm>.btn,
-.btn-sm {
-    padding: 5px 10px;
-    font-size: 12px;
-    line-height: 1.5;
-    border-radius: 3px
-}
-
-.btn-group-xs>.btn,
-.btn-xs {
-    padding: 1px 5px;
-    font-size: 12px;
-    line-height: 1.5;
-    border-radius: 3px
 }
 
 .btn-block {

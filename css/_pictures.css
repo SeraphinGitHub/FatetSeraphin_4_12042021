@@ -1,12 +1,11 @@
 
-.navbar-brand {
+.navbar-anchor figure {
     background: url("../img/la-chouette-agence.png") no-repeat;
-    display: block;
     height: 40px;
     width: 215px;
 }
 
-.image-resize-mode {
+.logo-Chouette {
     background: url("../img/logo.png") no-repeat;
     display: block;
 
@@ -18,29 +17,31 @@
 
 .bg-dots-bg {
     background-image: url("../img/dots-bg.png");
+    /* height: 5px;
+    width: 5px; */
 }
 
 .bg-lines-h2-bg {
     background-image: url("../img/lines-h2-bg.png");
+    /* height: 5px;
+    width: 5px; */
 }
 
 .bg-banniere {
     background-image: url("../img/la-chouette-agence-banniere.jpg");
+    /* height: 575px;
+    width: 1903px; */
 }
 
 .bg-presentation {
     background-image: url("../img/image-de-presentation.jpg");
+    /* height: 980px;
+    width: 1903px; */
 }
 
+.tight-width-whitespace,
 .texture-paper::before {
     background: url("../img/texture-paper.png");
-}
-
-#page-loading-blocs-notifaction {
-    position: fixed;
-    top: 0;
-    bottom: 0;
-    width: 100%;
-    z-index: 100000;
-    background: #FFFFFF url("../img/pageload-spinner.gif") no-repeat center center;
+    /* height: 280px;
+    width: 280px; */
 }
