@@ -1,14 +1,13 @@
 
-.black-background {
+.div2-section3 {
     background-color: rgba(165, 147, 99, 0.7);
-    padding: 30px;
 }
 
 .bgc-white {
     background-color: #FFFFFF;
 }
 
-.bgc-dark-slate-blue {
+.dark-blue {
     background-color: #364577;
 }
 
@@ -17,7 +16,10 @@
     background-color: #F3976C;
 }
 
-.tc-white {
+.tc-white,
+.lightbox-caption,
+.next-lightbox,
+.prev-lightbox {
     color: #ffffff!important;
     text-shadow: black 1.5px 1.5px 1.5px;
 }
