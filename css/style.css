@@ -1,10 +1,23 @@
 body {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
     margin: 0;
     padding: 0;
     background: #FFF;
     overflow-x: hidden;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+}
+
+.flex-center {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    width: 100%;
 }
 
 /* ========================================================================= */
@@ -24,14 +37,19 @@ header {
 /* ========================================================================= */
 /* NavBar */
 /* ========================================================================= */
+.mini-nav {
+    justify-content: space-between;
+    width: 50%;
+}
+
 nav {
+    position: relative;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    width: 1030px;
-    margin-left: 30px;
-    margin-right: 30px;
-    /* background-color: yellowgreen; */
+    align-content: flex-start;
+    width: 1028px;
+    margin: 20px;
 }
 
 .navbar-anchor {
@@ -43,8 +61,6 @@ nav {
     border-top: 1px solid;
     border-bottom: 1px solid;
     border-color: lightgray;
-    
-    /* background-color: orange; */
 }
 
 .navbar-anchor figure {
@@ -54,38 +70,33 @@ nav {
     margin-left: 15px;
 }
 
-.navbar-ul {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-content: center;
-    list-style: none;
-    height: 100%;
-    width: 160px;
-    margin: 0%;
-    padding: 0%;
-
-    /* background-color: dodgerblue; */
+.navbar-collapse a {
+    font-size: 18px;
 }
 
-.navbar-ul a {
-    text-decoration: none;
-    font-size: 18px;
-    font-weight: 400;
+
+/* ==================== */
+/* Hamburger Menu */
+/* ==================== */
+.hamburger-menu {
+    display: none;
+    position: absolute;
+    align-content: space-between;
+    right: 0%;
+    height: 14px;
+    width: 26px;
+}
+
+.hamburger-menu span {
+    height: 2px;
+    width: 100%;
+    background-color: grey;
 }
 
 
 /* ========================================================================= */
 /* Sections */
 /* ========================================================================= */
-.flex-center {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-content: center;
-    width: 100%;
-}
-
 .texture-paper {
     position: absolute;
     height: 100%;
@@ -119,10 +130,6 @@ nav {
     border-radius: 40px;
 }
 
-.btn-contact:hover {
-    text-decoration: none;
-}
-
 
 /* ========================================================================= */
 /* Section 2 - "Web design - Strategy - Illustrations" */
@@ -144,6 +151,7 @@ nav {
     width: 1150px;
 
 }
+
 .categories-section2 {
     width: 30%;
 }
@@ -171,15 +179,17 @@ nav {
 /* ========================================================================= */
 .section3 {
     position: relative;
-    height: 600px;
+    height: auto;
     background-attachment: fixed;
     background-position: top 0 left 50%;
 }
 
 .div2-section3 {
     align-content: space-between;
+    margin-top: 50px;
+    margin-bottom: 50px;
     padding: 30px;
-    height: 75%;
+    height: auto;
     width: 820px;
 }
 
@@ -192,11 +202,16 @@ nav {
     width: 75%;
 }
 
+.div2-section3 p {
+    width: 75%;
+}
+
 .div2-section3 h2,
 .div2-section3 p,
 .div2-section3 a {
-    margin: 0px;
+    margin: 12px;
     padding: 0px;
+    z-index: 10;
 }
 
 
@@ -212,15 +227,15 @@ nav {
 .main-portfolio {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
     align-content: space-between;
-    width: 40%;
+    width: 800px;
     height: auto;
     margin-bottom: 100px;
 }
 
 .sub-portfolio {
-    margin: 50px;
+    margin: 40px;
     height: 450px;
     width: 270px;
 }
@@ -251,13 +266,45 @@ nav {
 .div1-section5 h2 {
     text-align: center;
     font-size: 24px;
-    margin: 30px;
+    margin: 25px;
 }
 
 
+/* ========================================================================= */
+/* Footer */
+/* ========================================================================= */
+footer {
+    align-content: flex-start;
+    height: auto;
+}
+
+.social a {
+    text-decoration: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 80px;
+}
+
+.social a i {
+    color: white;
+    opacity: 60%;
+}
+
+.social a i:hover {
+    opacity: 100%;
+}
+
+.col-links {
+    margin: 30px;
+    margin-bottom: 50px;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 1000px;
+}
 
 
-
+/* ============================================================================================================================== */
 
 
 .dropdown-menu .dropdown-menu {
@@ -379,7 +426,6 @@ a[data-lightbox]:hover img {
 }
 
 .close-lightbox,
-.lightbox-caption,
 .next-lightbox,
 .prev-lightbox {
     background: rgba(0, 0, 0, 0.7);
@@ -391,7 +437,7 @@ a[data-lightbox]:hover img {
     position: absolute;
     left: 15px;
     right: 15px;
-    bottom: 5px;
+    bottom: -70px;
 }
 
 .close-lightbox {
@@ -453,12 +499,6 @@ a[data-lightbox]:hover img {
     font-weight: lighter;
     max-width: 520px;
     margin: auto auto auto auto;
-}
-
-
-.social {
-    margin-top: 20px;
-    margin-bottom: 40px;
 }
 
 .portfolio-thumb {

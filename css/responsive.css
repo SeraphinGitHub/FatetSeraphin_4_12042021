@@ -1,279 +1,147 @@
 
-@media (max-width: 1024px) {
-    .bloc {
-        padding-left: 20px;
-        padding-right: 20px;
-    }
-    .bloc.full-width-bloc,
-    .bloc-tile-2.full-width-bloc .container,
-    .bloc-tile-3.full-width-bloc .container,
-    .bloc-tile-4.full-width-bloc .container {
-        padding-left: 0;
-        padding-right: 0;
-    }
-}
-
-
-
-
-@media (max-width: 992px) and (min-width: 768px) {
-    .navbar .nav {
-        max-width: 80%
-    }
-    .nav-center.navbar .nav {
-        max-width: 100%
-    }
-}
-
-
-
-
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
-    .b-parallax {
+@media screen and (min-width: 320px) and (max-width : 1024px) {
+    .section1,
+    .section3,
+    .section5 {
         background-attachment: scroll;
     }
 }
 
 
+@media screen and (min-width: 320px) and (max-width : 420px) {
+    .section1,
+    .section5 {
+        background-image: url("../img/la-chouette-agence-banniere_420px.jpg");
+    }
 
-
-@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
-    .b-parallax {
-        background-attachment: scroll;
+    .section3 {
+        background-image: url("../img/image-de-presentation_420px.jpg");
     }
 }
 
 
+@media screen and (min-width: 421px) and (max-width : 1024px) {
+    .section1,
+    .section5 {
+        background-image: url("../img/la-chouette-agence-banniere_1024px.jpg");
+    }
 
-
-@media (max-width: 991px) {
-    .container {
-        width: 100%;
-    }
-    .b-parallax {
-        background-attachment: scroll;
-    }
-    body,
-    #hero-bloc {
-        overflow-x: hidden;
-        position: relative;
-    }
-    .bloc {
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
-    }
-    .bloc-group,
-    .bloc-group .bloc {
-        display: block;
-        width: 100%;
-    }
-    .bloc-fill-screen .fill-bloc-top-edge,
-    .bloc-fill-screen .fill-bloc-bottom-edge {
-        padding: 0 20px;
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
+    .section3 {
+        background-image: url("../img/image-de-presentation_1024px.jpg");
     }
 }
 
 
-
-@media (min-width: 768px) {
-    .site-navigation {
-        position: absolute;
-        top: 50%;
-        right: 20px;
-        transform: translate(0, -50%);
-        -webkit-transform: translateY(-50%);
-    }
-    .nav > li .dropdown-menu a,
-    .nav > li .dropdown-menu a:hover {
-        color: #484848;
-    }
-    .nav-invert .site-navigation {
-        left: 0;
-        right: 0;
-    }
-    .nav-center {
-        text-align: center;
-    }
-    .nav-center .navbar-header {
-        width: 100%;
-    }
-    .nav-center .navbar-header,
-    .nav-center .navbar-brand,
-    .nav-center .nav > li {
-        float: none;
-        display: inline-block;
-    }
-    .nav-center .site-navigation {
-        position: relative;
-        width: 100%;
-        right: 0;
-        margin-right: 0px;
-        margin-top: 20px;
-    }
-    .nav-center.mini-nav .navbar-toggle {
-        float: none;
-        margin: 10px auto 0;
-    }
-}
-
-
-
-@media (max-width: 767px) {
-    body {
-        overflow-x: hidden;
-        position: relative;
-    }
-    h1,
-    h2,
-    h3,
-    h4,
-    h5,
-    h6,
-    p,
-    #disqus_thread {
-        padding-left: 10px!important;
-        padding-right: 10px!important;
-    }
-    .b-parallax {
-        background-attachment: scroll;
-    }
-    .navbar .nav {
-        padding-top: 0;
-        border-top: 1px solid rgba(0, 0, 0, .2);
-        float: none!important;
-    }
-    .navbar.row {
-        margin-left: 0;
-        margin-right: 0;
-    }
-    .site-navigation {
-        position: inherit;
-        transform: none;
-        -webkit-transform: none;
-        -ms-transform: none;
-    }
-    .nav > li {
-        margin-top: 0;
-        border-bottom: 1px solid rgba(0, 0, 0, .1);
-        background: rgba(0, 0, 0, .05);
-        text-align: left;
-        padding-left: 15px;
-        width: 100%;
-    }
-    .nav > li:hover {
-        background: rgba(0, 0, 0, .08);
-    }
-    .dropdown .dropdown a .caret {
-        float: none;
-        margin: 5px 0 0 10px!important;
-        border: 4px solid black;
-        border-bottom-color: transparent;
-        border-right-color: transparent;
-        border-left-color: transparent;
-    }
-    #hero-bloc .navbar .nav {
-        background: rgba(0, 0, 0, .8);
-    }
-    #hero-bloc .navbar .nav a {
-        color: rgba(255, 255, 255, .6);
-    }
-    .hero {
-        padding: 50px 0;
-    }
-    .hero-nav {
-        left: -1px;
-        right: -1px;
-    }
+@media screen and (min-width: 320px) and (max-width : 600px) {
     .navbar-collapse {
-        padding: 0;
-        overflow-x: hidden;
-        -webkit-box-shadow: none;
-        box-shadow: none;
+        margin-right: 60%;
     }
-    .navbar-brand img {
-        max-height: 40px;
-        width: auto;
+}
+
+
+@media screen and (min-width: 600px) and (max-width : 767px) {
+    .navbar-collapse {
+        margin-right: 77%;
     }
-    .nav-invert .navbar-header {
-        float: none;
+}
+
+
+@media screen and (min-width: 320px) and (max-width : 767px) {
+
+    /* ========================================================================= */
+    /* NavBar */
+    /* ========================================================================= */
+    .hamburger-menu {
+        display: flex;
+    }
+
+    .navbar-collapse {
+        padding: 0%;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        margin-left: 5px;
+    }
+
+    .navbar-collapse a {
+        margin-top: 15px;
+    }
+    
+
+    /* ========================================================================= */
+    /* Section 2 - "Web design - Strategy - Illustrations" */
+    /* ========================================================================= */
+    .div1-section2 {
+        justify-content: center;
+    }
+
+    .categories-section2 {
         width: 100%;
     }
-    .nav-invert .navbar-toggle {
-        float: left;
-        margin-left: 10px;
+
+    .section2 h2,
+    .categories-section2 p {
+        margin-left: 40px;
+        margin-right: 40px;
     }
-    .bloc {
-        padding-left: 0;
-        padding-right: 0;
+
+    .citation {
+        margin: 0px;
     }
-    .bloc-xxl,
-    .bloc-xl,
-    .bloc-lg {
-        padding: 40px 0;
+    
+    .citation h2 {
+        margin-left: 20px;
+        margin-right: 20px;
     }
-    .bloc-sm,
-    .bloc-md {
-        padding-left: 0;
-        padding-right: 0;
+
+
+    /* ========================================================================= */
+    /* Section 3 - "Nous souhaitons..." */
+    /* ========================================================================= */
+    .div2-section3 {
+        padding: 20px;
     }
-    .bloc-tile-2 .container,
-    .bloc-tile-3 .container,
-    .bloc-tile-4 .container,
-    .bloc-fill-screen .fill-bloc-top-edge,
-    .bloc-fill-screen .fill-bloc-bottom-edge {
-        padding-left: 0;
-        padding-right: 0;
+
+    .div2-section3 h2,
+    .div2-section3 p {
+        margin-left: 0px;
+        margin-right: 0px;
     }
-    .a-block {
-        padding: 0 10px;
+
+    .div2-section3 p {
+        width: 100%;
     }
-    .btn-dwn {
-        display: none;
+
+
+    /* ========================================================================= */
+    /* Section 4 - Portfolio */
+    /* ========================================================================= */
+    .section4 h2 {
+        margin-left: 20px;
+        margin-right: 20px;
     }
-    .voffset {
-        margin-top: 5px;
-    }
-    .voffset-md {
-        margin-top: 20px;
-    }
-    .voffset-lg {
-        margin-top: 30px;
-    }
-    form {
-        padding: 5px;
-    }
-    .close-lightbox {
-        display: inline-block;
-    }
-    .blocsapp-device-iphone5 {
-        background-size: 216px 425px;
-        padding-top: 60px;
-        width: 216px;
-        height: 425px;
-    }
-    .blocsapp-device-iphone5 img {
-        width: 180px;
-        height: 320px;
+
+
+    /* ========================================================================= */
+    /* Footer */
+    /* ========================================================================= */
+    p {
+        margin-left: 20px;
+        margin-right: 20px;
     }
 }
 
 
+@media screen and (min-width: 320px) and (max-width : 690px) {
 
-
-@media (max-width: 400px) {
-    .bloc {
-        padding-left: 0;
-        padding-right: 0;
+    /* ========================================================================= */
+    /* Footer */
+    /* ========================================================================= */
+    .col-links {
+        margin-left: 10%;
+        justify-content: center;
     }
-}
 
-
-
-
-@media (max-width: 767px) {
-    .bloc-mob-center-text {
-        text-align: center;
+    .col-sm-4 {
+        width: 100%;
     }
 }

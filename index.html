@@ -5,13 +5,13 @@
 		<title>La Chouette Agence</title>
 		
 		<meta charset="utf-8">
-		<meta name="description" content="La chouette agence est une agence de web design qui aide les entreprises à devenir attractives et visibles sur Internet.">
+		<meta name="description" content="La chouette agence est une entreprise de webdesign, basée à Lyon, qui aide les entreprises à devenir attractives et visibles sur Internet.">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
 		
 		<meta property="og:url" content="https://seraphingithub.github.io/FatetSeraphin_4_12042021/">
 		<meta property="og:type" content="website">
 		<meta property="og:title" content="La Chouette Agence">
-		<meta property="og:description" content="La chouette agence est une agence de web design qui aide les entreprises à devenir attractives et visibles sur Internet.">
+		<meta property="og:description" content="La chouette agence est une entreprise de webdesign, basée à Lyon, qui aide les entreprises à devenir attractives et visibles sur Internet.">
 		<meta property="og:image" content="https://seraphingithub.github.io/FatetSeraphin_4_12042021/img/logo.png">
 
 		<meta name="robots" content="index, follow">
@@ -40,25 +40,36 @@
 
 	<body>
 		<!-- La chouette agence logo + Navbar  -->
-		<header>
-			<nav>		
-				<a class="navbar-anchor">
-					<figure href="index.html"></figure>
+		<nav>
+			<div class="flex-center mini-nav">
+				<a href="index.html" class="navbar-anchor">
+					<figure>
+						<img src="img/la-chouette-agence.png" alt="La chouette agence">
+					</figure>
 				</a>
-	
-				<ul class="navbar-ul">
-					<li><a href="index.html">Accueil</a></li>
-					<li><a href="contact.html">Contact</a></li>
-				</ul>
-			</nav>
-		</header>
+
+				<button type="button" class="flex-center hamburger-menu ui-navbar-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-1">
+					<span class="sr-only"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+			</div>
+
+			<ul class="collapse navbar-collapse navbar-1 special-dropdown-nav site-navigation nav navbar-nav">
+				<li><a href="index.html">Accueil</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+		</nav>
 
 		<!-- Chouette logo + btn Contact  -->
 		<section class="flex-center section1 dark-blue">
-			<figure class="texture-paper"></figure>
+			<figure class="flex-center texture-paper"></figure>
 
 			<div class="flex-center div1-section1">
-				<figure class="flex-center logo-Chouette"></figure>
+				<figure class="flex-center">
+					<img src="img/logo.png" alt="logo la chouette agence">
+				</figure>
 							
 				<h1 class="flex-center">La chouette agence</h1>
 	
@@ -69,8 +80,8 @@
 		<!-- Web Design /Strategy /Illustrations  -->
 		<section class="flex-center section2">
 			<h2>
-				La chouette agence est une agence de web design qui aide<br>
-				les entreprises à devenir attractives et visibles sur Internet.
+				La chouette agence est une entreprise de webdesign basée à Lyon<br>
+				qui aide les entreprises à devenir attractives et visibles sur Internet.
 			</h2>
 
 			<div class="flex-center div1-section2">
@@ -135,7 +146,7 @@
 		<section class="flex-center tc-white section3">
 			<figure class="texture-paper"></figure>
 				
-			<div class="flex-center div2-section3 texture-paper">
+			<div class="flex-center div2-section3">
 				<h2 class="text-center tc-blue">
 					Nous souhaitons aider les entreprises de la région Lyonnaise
 					à se développer et à connaître le succès.
@@ -247,82 +258,65 @@
 			</div>
 		</section>
 
-		<footer class="bgc-atomic-tangerine">
-			<div class="container bloc-sm">
-				<div class="row">
+		<footer class="flex-center bgc-atomic-tangerine">
+			<p class="text-center white ">
+				La chouette agence - Entreprise de webdesign basée à Lyon
+			</p>
+						
+			<div class="flex-center social">
+				<a href="index.html">
+					<i class="fa fa-twitter icon-md"></i>
+				</a>
 					
-					<section class="col-sm-12">
-
-						<p class="text-center white">
-							La chouette agence - Agence web basée à Lyon.<br>
-						</p>
+				<a href="index.html">
+					<i class="fa fa-facebook icon-md"></i>
+				</a>
 						
-						<div class="row row-no-gutters social">
-
-							<div class="col-sm-3 text-center">
-								<a class="social" href="index.html"><span class="fa fa-twitter icon-md"></span></a>
-							</div>			
+				<a href="index.html">
+					<i class="fa fa-dribbble icon-md"></i>
+				</a>
 						
-							<div class="col-sm-3 text-center">
-								<a class="social" href="index.html"><span class="fa fa-facebook icon-md"></span></a>
-							</div>
+				<a href="index.html">
+					<i class="fa fa-instagram icon-md"></i>
+				</a>
+			</div>
 						
-							<div class="col-sm-3 text-center">
-								<a class="social" href="index.html"><span class="fa fa-dribbble icon-md"></span></a>
-							</div>
+			<div class="flex-center col-links">			
+				<div class="col-sm-4">
+					<p class="white">Partenaires</p>
 						
-							<div class="col-sm-3 text-center">
-								<a class="social" href="index.html"><span class="fa fa-instagram icon-md"></span></a>
-							</div>
-
-						</div>
-						
-						<div class="row">
+					<ul>
+						<li><a href="voiture.com">voiture.com</a></li>
+						<li><a href="pizza.com">pizza.com</a></li>
+						<li><a href="immobilierseo.com">immobilierseo.com</a></li>
+					</ul>	
+				</div>
 							
-							<div class="col-sm-4">
-								<p class="white">Partenaires</p>
+				<div class="col-sm-4">
+					<p class="white">Annuaires liste 1</p>
 								
-								<ul>
-									<li><a href="voiture.com">voiture.com</a></li>
-									<li><a href="pizza.com">pizza.com</a></li>
-									<li><a href="immobilierseo.com">immobilierseo.com</a></li>
-								</ul>	
-
-							</div>
+					<ul>
+						<li><a href="annuaireagence.com">annuaireagence.com</a></li>
+						<li><a href="123site.com">123site.com</a></li>
+						<li><a href="annuairewordpress.com">annuairewordpress.com</a></li>
+						<li><a href="meilleuresagencesparis.com">meilleuresagencesparis.com</a></li>
+						<li><a href="listeseo.com">listeseo.com</a></li>
+					</ul>
+				</div>
 							
-							<div class="col-sm-4">
-
-								<p class="white">Annuaires liste 1</p>
+				<div class="col-sm-4">
+					<p class="white">Annuaires liste 2</p>
 								
-								<ul>
-									<li><a href="annuaireagence.com">annuaireagence.com</a></li>
-									<li><a href="123site.com">123site.com</a></li>
-									<li><a href="annuairewordpress.com">annuairewordpress.com</a></li>
-									<li><a href="meilleuresagencesparis.com">meilleuresagencesparis.com</a></li>
-									<li><a href="listeseo.com">listeseo.com</a></li>
-								</ul>
-
-							</div>
-							
-							<div class="col-sm-4">
-
-								<p class="white">Annuaires liste 2</p>
-								
-								<ul>
-									<li><a href="ameliorerseo.com">ameliorerseo.com</a></li>
-									<li><a href="meilleursliens.com">meilleursliens.com</a></li>
-									<li><a href="liensagogo.com">liensagogo.com</a></li>
-									<li><a href="remontersurgoogle.com">remontersurgoogle.com</a></li>
-									<li><a href="vraiseofiable.com">vraiseofiable.com</a></li>
-								</ul>
-
-							</div>
-
-						</div>
-					</section>
-
+					<ul>
+						<li><a href="ameliorerseo.com">ameliorerseo.com</a></li>
+						<li><a href="meilleursliens.com">meilleursliens.com</a></li>
+						<li><a href="liensagogo.com">liensagogo.com</a></li>
+						<li><a href="remontersurgoogle.com">remontersurgoogle.com</a></li>
+						<li><a href="vraiseofiable.com">vraiseofiable.com</a></li>
+					</ul>
 				</div>
 			</div>
+
 		</footer>
 	</body>
 </html>

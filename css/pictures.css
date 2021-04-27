@@ -3,18 +3,6 @@
     background: url("../img/texture-paper.png") repeat;
 }
 
-.navbar-anchor figure {
-    background: url("../img/la-chouette-agence.png") no-repeat;
-    height: 40px;
-    width: 215px;
-}
-
-.logo-Chouette {
-    background: url("../img/logo.png") no-repeat;
-    height: 100px;
-    width: 100px;
-}
-
 .section1,
 .section5 {
     background-image: url("../img/la-chouette-agence-banniere.jpg");

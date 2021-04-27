@@ -62,12 +62,6 @@ html input[disabled] {
     cursor: default;
 }
 
-button::-moz-focus-inner,
-input::-moz-focus-inner {
-    padding: 0;
-    border: 0;
-}
-
 input {
     line-height: normal;
 }
@@ -209,16 +203,6 @@ hr {
     border-top: 1px solid #eee
 }
 
-.sr-only {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    padding: 0;
-    margin: -1px;
-    overflow: hidden;
-    clip: rect(0, 0, 0, 0);
-    border: 0
-}
 
 .sr-only-focusable:active,
 .sr-only-focusable:focus {
@@ -2346,16 +2330,12 @@ textarea.input-group-sm>.input-group-btn>.btn {
 }
 
 .navbar-toggle {
-    position: relative;
-    float: right;
-    padding: 9px 10px;
-    margin-top: 8px;
-    margin-right: 15px;
-    margin-bottom: 8px;
+    position: absolute;
+    right: 0%;
+    margin: 0%;
+    padding: 0%;
+    border: none;
     background-color: transparent;
-    background-image: none;
-    border: 1px solid transparent;
-    border-radius: 4px
 }
 
 .navbar-toggle:focus {
@@ -2364,9 +2344,8 @@ textarea.input-group-sm>.input-group-btn>.btn {
 
 .navbar-toggle .icon-bar {
     display: block;
-    width: 22px;
+    width: 25px;
     height: 2px;
-    border-radius: 1px
 }
 
 .navbar-toggle .icon-bar+.icon-bar {
@@ -2378,6 +2357,7 @@ textarea.input-group-sm>.input-group-btn>.btn {
         display: none
     }
 }
+
 
 .navbar-nav {
     margin: 7.5px -15px
@@ -4293,7 +4273,8 @@ button.close {
 
 .modal-body {
     position: relative;
-    padding: 15px
+    padding: 15px;
+    margin-bottom: 50px;
 }
 
 .modal-footer {
