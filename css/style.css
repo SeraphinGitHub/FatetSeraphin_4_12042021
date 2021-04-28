@@ -433,11 +433,12 @@ a[data-lightbox]:hover img {
 
 
 .lightbox-caption {
-    padding: 20px;
+    padding: 0px;
+    margin: 0px;
     position: absolute;
     left: 15px;
     right: 15px;
-    bottom: -70px;
+    bottom: -45px;
 }
 
 .close-lightbox {
