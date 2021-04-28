@@ -1,174 +1,104 @@
 <!doctype html>
 <html lang="fr-FR">
+
 	<head>
 		<title>Contact</title>
 		
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-		
-		<!-- **************************** -->
+
 		<meta name="robots" content="noindex, nofollow">
-		<!-- **************************** -->
 		
-		<link rel="shortcut icon" type="image/png" href="favicon.jpg">
+		<link rel="shortcut icon" type="image/jpg" href="favicon.jpg">
 		
-		<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
-		<link rel="stylesheet" type="text/css" href="./css/font-awesome.min.css">
-		<link rel="stylesheet" type="text/css" href="./css/et-line.min.css">
+		<link rel="stylesheet" type="text/css" href="./css/bootstrap-Minified.css">
+		<link rel="stylesheet" type="text/css" href="./css/font-awesome-Minified.css">
+		<link rel="stylesheet" type="text/css" href="./css/et-line-Minified.css">
 		
-		<link rel="stylesheet" type="text/css" href="./css/style.css">
-		<link rel="stylesheet" type="text/css" href="./css/pictures.css">
-		<link rel="stylesheet" type="text/css" href="./css/polices.css">
-		<link rel="stylesheet" type="text/css" href="./css/colors.css">
-		<link rel="stylesheet" type="text/css" href="./css/icons.css">
-		<link rel="stylesheet" type="text/css" href="./css/responsive.css">
-		
-		<script src="./js/jquery-2.1.0.min.js"></script>
-		<script src="./js/bootstrap.min.js"></script>
-		<script src="./js/blocs.min.js"></script>
-		<script src="./js/jqBootstrapValidation.js"></script>
-		<script src="./js/formHandler.js"></script>
+		<link rel="stylesheet" type="text/css" href="./css/polices-Minified.css">
+		<link rel="stylesheet" type="text/css" href="./css/style-Minified.css">
+		<link rel="stylesheet" type="text/css" href="./css/style-contact-Minified.css">
+		<link rel="stylesheet" type="text/css" href="./css/pictures-Minified.css">
+		<link rel="stylesheet" type="text/css" href="./css/colors-Minified.css">
+		<link rel="stylesheet" type="text/css" href="./css/responsive-Minified.css">
 	</head>
 
-<body>
-<!-- Principal conteneur -->
-<div class="page-container">
-    
-<!-- bloc-0 -->
-<div class="bloc bgc-white l-bloc " id="bloc-0">
-	<div class="container bloc-sm">
-		
-		<nav class="navbar row">
-
-			<a class="navbar-header navbar-brand" href="index.html"></a>
-				
-			<button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-1">
-				<span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
-			</button>
-			
-			<div class="collapse navbar-collapse navbar-1 special-dropdown-nav">
-				<ul class="site-navigation nav navbar-nav">
-					<li>
-						<a href="index.html">Accueil</a>
-					</li>
-
-					<li>
-						<a href="page2.html">page2 &gt;</a>
-					</li>
-				</ul>
+	<body>
+		<!-- NavBar -->
+		<nav>
+			<div class="flex-center mini-nav">
+				<a href="index.html" class="navbar-anchor">
+					<figure>
+						<img src="img/la-chouette-agence.webp" alt="La chouette agence">
+					</figure>
+				</a>
 			</div>
-		</nav>
-	</div>
-</div>
-<!-- bloc-0 END -->
 
-<!-- bloc-6 -->
-<div class="bloc bg-dots-bg bg-repeat bgc-atomic-tangerine d-bloc bloc-bg-texture" id="bloc-6">
-	<div class="container bloc-lg">
-		<div class="row">
-			<div class="col-sm-12">
-				<h1 class="text-center hero-bloc-text tc-white">
+			<ul class="navbar-collapse nav navbar-nav">
+				<li><a href="index.html">Accueil</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+		</nav>
+
+		<!-- Parlons Web Design -->
+		<section class="flex-center section1-contact">
+			<figure class="bg-dots-bg"></figure>
+			<figure class="texture-paper"></figure>
+
+			<div class="flex-center title-h1">
+				<h1 class="text-center tc-white">
 					Parlons web design !
 				</h1>
-				
-				<p class="text-center mg-lg tc-white tight-width-whitespace">
-					Nous sommes ravis que vous souhaitiez collaborer avec notre agence.<br>
+					
+				<p class="text-center tc-white">
+					Nous sommes ravis que vous souhaitiez collaborer avec notre agence.
 					Parlez-nous de votre projet en complétant le formulaire ci-dessous.
 				</p>
 			</div>
-		</div>
-	</div>
-</div>
-<!-- bloc-6 END -->
+		</section>
 
-<!-- bloc-7 -->
-<div class="bloc bgc-white l-bloc" id="bloc-7">
-	<div class="container bloc-lg">
-		<div class="row">
-			<div class="col-sm-6">
-				<form id="form_1" novalidate success-msg="Your message has been sent." fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
-					<div class="form-group">
-						<label>
-							Nom
-						</label>
-						<input id="name" class="form-control" required />
-					</div>
-					<div class="form-group">
-						<label>
-							Adresse email
-						</label>
-						<input id="email" class="form-control" type="email" required />
-					</div>
-					<div class="form-group">
-						<label>
-							Comment nous avez-vous connu ?
-						</label>
-						<input class="form-control" type="email" required id="input_504" />
-					</div>
-					<div class="form-group">
-						<label>
-							Brief de votre projet (Ajoutez autant de détails que nécessaire)<br>
-						</label><textarea id="message" class="form-control" rows="4" cols="50" required></textarea>
-					</div> 
-					<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit">
-						Envoyer
-					</button>
-				</form>
-			</div>
-			<div class="col-sm-6">
-				<p>
-					contact@lachouetteagence.com<br>2 place Sathonay 69001 Lyon<br>Ouvert de 9h à 18h, du lundi au vendredi<br>
-				</p>
-			</div>
-		</div>
-	</div>
-</div>
-<!-- bloc-7 END -->
-
-<!-- ScrollToTop Button -->
-<a class="bloc-button btn btn-d scrollToTop" onclick="scrollToTarget('1')"><span class="fa fa-chevron-up"></span></a>
-<!-- ScrollToTop Button END-->
-
-
-<!-- Footer - bloc-8 -->
-<div class="bloc bgc-atomic-tangerine d-bloc" id="bloc-8">
-	<div class="container bloc-sm">
-		<div class="row">
-			<div class="col-sm-12">
-				<p class="text-center white">
-					La chouette agence - Agence web basée à Lyon.<br>
-				</p>
-				<div class="row row-no-gutters social">
-					<div class="col-sm-3">
-						<div class="text-center">
-							<a class="social" href="index.html"><span class="fa fa-twitter icon-md"></span></a>
-						</div>
-					</div>
-					<div class="col-sm-3">
-						<div class="text-center">
-							<a class="social" href="index.html"><span class="fa fa-facebook icon-md"></span></a>
-						</div>
-					</div>
-					<div class="col-sm-3">
-						<div class="text-center">
-							<a class="social" href="index.html"><span class="fa fa-dribbble icon-md"></span></a>
-						</div>
-					</div>
-					<div class="col-sm-3">
-						<div class="text-center">
-							<a class="social" href="index.html"><span class="fa fa-instagram icon-md"></span></a>
-						</div>
-					</div>
+		<!-- Section Formulaires -->
+		<section class="flex-center section2-contact">
+			<h2 class="W3C_Validator">_</h2> <!-- W3C Validator No Error -->
+			
+			<form class="flex-center formulaires-contact">
+				<div class="form-group">
+					<label>Nom</label>
+					<input id="name" class="form-control" placeholder="Entrez votre nom et prénom" required />
 				</div>
-			</div>
-		</div>
-	</div>
-</div>
-<!-- Footer - bloc-8 END -->
 
-</div>
-<!-- Principal conteneur END -->
-    
+				<div class="form-group">
+					<label>Adresse email</label>
+					<input id="email" class="form-control" placeholder="Entrez votre adresse mail" type="email" required />
+				</div>
 
-</body>
+				<div class="form-group">
+					<label>Comment nous avez-vous connu ?</label>
+					<input id="input_504" class="form-control" placeholder="Faite-le-nous savoir" type="email" required />
+				</div>
+
+				<div class="form-group">
+					<label>Brief de votre projet<br>(Ajoutez autant de détails que nécessaire)</label>
+					<textarea id="message" class="form-control" rows="6" cols="70" placeholder="Décrivez le nous en quelques mots" required></textarea>
+				</div> 
+
+				<button class="btn btn-envoyer" type="submit">
+					ENVOYER
+				</button>
+			</form>
+
+			<p class="flex-center adresse-postale">
+				contact@lachouetteagence.com<br>
+				2 place Sathonay 69001 Lyon<br>
+				Ouvert de 9h à 18h, du lundi au vendredi
+			</p>
+		</section>
+
+		<!-- footer -->
+		<footer class="flex-center footer-contact">
+			<p class="white">
+				La chouette agence - Agence web basée à Lyon.<br>
+			</p>		
+		</footer>
+	</body>
 </html>

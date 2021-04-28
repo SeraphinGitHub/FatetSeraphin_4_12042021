@@ -74,6 +74,12 @@ nav {
     font-size: 18px;
 }
 
+.navbar-collapse a:hover {
+    transition: all .3s ease-in-out;
+    text-decoration: none;
+    background-color: #F3976C;
+}
+
 
 /* ==================== */
 /* Hamburger Menu */
@@ -120,6 +126,10 @@ nav {
     align-content: space-between;
     position: absolute;
     height: 235px;
+}
+
+.btn {
+    transition: all .3s ease-in-out;
 }
 
 .btn-contact {

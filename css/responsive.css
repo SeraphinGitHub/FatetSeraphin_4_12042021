@@ -17,6 +17,13 @@
     .section3 {
         background-image: url("../img/image-de-presentation_420px.webp");
     }
+
+    /* ========================================================================= */
+    /* Formulaire - Contact */
+    /* ========================================================================= */
+    .form-group input {
+        width: 85%;
+    }
 }
 
 
@@ -32,20 +39,13 @@
 }
 
 
-@media screen and (min-width: 320px) and (max-width : 600px) {
-    .navbar-collapse {
-        margin-right: 60%;
-    }
-}
+/* ************************************************************************************************************** */
 
+/*                                  ========================================                                      */
+/*                                  Main Responsive Design - 320px > 767px */
+/*                                  ========================================                                      */
 
-@media screen and (min-width: 600px) and (max-width : 767px) {
-    .navbar-collapse {
-        margin-right: 77%;
-    }
-}
-
-
+/* ************************************************************************************************************** */
 @media screen and (min-width: 320px) and (max-width : 767px) {
 
     /* ========================================================================= */
@@ -60,10 +60,13 @@
         margin-top: 0px;
         margin-bottom: 0px;
         margin-left: 5px;
+        width: 100%;
     }
 
     .navbar-collapse a {
         margin-top: 15px;
+        background-color: lightgray;
+        width: 88%;
     }
     
 
@@ -127,6 +130,18 @@
     p {
         margin-left: 20px;
         margin-right: 20px;
+    }
+
+
+    /* ========================================================================= */
+    /* Formulaire et Text Area - Contact */
+    /* ========================================================================= */
+    .formulaires-contact {
+        padding-left: 10%;
+    }
+
+    .form-group textarea {
+        width: 85%;
     }
 }
 
