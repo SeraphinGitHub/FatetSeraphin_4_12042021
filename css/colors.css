@@ -43,13 +43,13 @@
 
 .btn {
     text-decoration: none;
-    color: #FFFFFF!important;
 }
 
 .btn:hover,
 .btn:active {
     text-decoration: none;
     background: #c27956!important;
+    color: #FFFFFF!important;
 }
 
 .ltc-atomic-tangerine {
@@ -67,6 +67,15 @@
 
 .white {
     color: #FFFFFF!important;
+}
+
+.btn,
+.col-sm-4 a {
+    color: #303030!important;
+}
+
+.text-footer {
+    color: black!important;
 }
 
 .icon-bar{

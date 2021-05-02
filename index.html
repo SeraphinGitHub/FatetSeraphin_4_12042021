@@ -12,26 +12,26 @@
 		<meta property="og:type" content="website">
 		<meta property="og:title" content="La Chouette Agence">
 		<meta property="og:description" content="La chouette agence est une entreprise de webdesign, basée à Lyon, qui aide les entreprises à devenir attractives et visibles sur Internet.">
-		<meta property="og:image" content="https://seraphingithub.github.io/FatetSeraphin_4_12042021/img/logo.png">
+		<meta property="og:image" content="https://seraphingithub.github.io/FatetSeraphin_4_12042021/img/logo.webp">
 
 		<meta name="robots" content="index, follow">
 		<link rel="canonical" href="https://seraphingithub.github.io/FatetSeraphin_4_12042021/">
 		
 		<link rel="shortcut icon" type="image/jpg" href="favicon.jpg">
 		
-		<link rel="stylesheet" type="text/css" href="./css/bootstrap-Minified.css">
-		<link rel="stylesheet" type="text/css" href="./css/font-awesome-Minified.css">
-		<link rel="stylesheet" type="text/css" href="./css/et-line-Minified.css">
+		<link rel="stylesheet" type="text/css" href="./css/bootstrap.css">
+		<link rel="stylesheet" type="text/css" href="./css/font-awesome.css">
+		<link rel="stylesheet" type="text/css" href="./css/et-line.css">
+
+		<link rel="stylesheet" type="text/css" href="./css/polices.css">
+		<link rel="stylesheet" type="text/css" href="./css/style.css">
+		<link rel="stylesheet" type="text/css" href="./css/pictures.css">
+		<link rel="stylesheet" type="text/css" href="./css/colors.css">
+		<link rel="stylesheet" type="text/css" href="./css/responsive.css">		
 		
-		<link rel="stylesheet" type="text/css" href="./css/polices-Minified.css">
-		<link rel="stylesheet" type="text/css" href="./css/style-Minified.css">
-		<link rel="stylesheet" type="text/css" href="./css/pictures-Minified.css">
-		<link rel="stylesheet" type="text/css" href="./css/colors-Minified.css">
-		<link rel="stylesheet" type="text/css" href="./css/responsive-Minified.css">		
-		
-		<script src="js/jquery-2.1.0-Minified.js" defer></script>
-		<script src="js/bootstrap-Minified.js" defer></script>
-		<script src="js/blocs-Minified.js" defer></script>
+		<script src="js/jquery-2.1.0.js" defer></script>
+		<script src="js/bootstrap.js" defer></script>
+		<script src="js/blocs.js" defer></script>
 	</head>
 
 
@@ -45,12 +45,12 @@
 					</figure>
 				</a>
 
-				<button type="button" class="flex-center hamburger-menu ui-navbar-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-1">
+				<div type="button" class="flex-center hamburger-menu ui-navbar-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-1">
 					<span class="sr-only"></span>
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
-				</button>
+				</div>
 			</div>
 
 			<ul class="collapse navbar-collapse navbar-1 special-dropdown-nav site-navigation nav navbar-nav">
@@ -67,10 +67,10 @@
 				<figure class="flex-center">
 					<img src="img/logo.webp" alt="logo la chouette agence">
 				</figure>
-							
+				
 				<h1 class="flex-center">La chouette agence</h1>
 	
-				<a href="contact.html" class="flex-center btn btn-contact">CONTACT</a>
+				<button onclick="location.href='contact.html'" class="flex-center btn btn-contact spare-link">CONTACT</button>
 			</div>
 		</section>
 
@@ -169,7 +169,7 @@
 					qui seront facilement trouvable sur les moteurs de recherche.
 				</p>
 					
-				<a class="flex-center bold-link tc-blue" href="contact.html">Contactez notre équipe</a>
+				<button onclick="location.href='contact.html'" class="flex-center bold-link tc-blue spare-link">Contactez notre équipe</button>
 			</div>
 		</section>
 
@@ -251,36 +251,40 @@
 					Contactez notre équipe !
 				</h2>
 
-				<a href="contact.html" class="flex-center btn btn-contact">CONTACT</a>
+				<button onclick="location.href='contact.html'" class="flex-center btn btn-contact spare-link">CONTACT</button>
 			</div>
 		</section>
 
 		<footer class="flex-center bgc-atomic-tangerine">
-			<p class="text-center white ">
+			<p class="text-center text-footer">
 				La chouette agence - Entreprise de webdesign basée à Lyon
 			</p>
 						
 			<div class="flex-center social">
-				<a href="index.html">
+				<button onclick="location.href='index.html'" class="spare-link">
+					<p>twitter</p>
 					<i class="fa fa-twitter icon-md"></i>
-				</a>
+				</button>
 					
-				<a href="index.html">
+				<button onclick="location.href='index.html'" class="spare-link">
+					<p>facbook</p>
 					<i class="fa fa-facebook icon-md"></i>
-				</a>
+				</button>
 						
-				<a href="index.html">
+				<button onclick="location.href='index.html'" class="spare-link">
+					<p>dribble</p>
 					<i class="fa fa-dribbble icon-md"></i>
-				</a>
+				</button>
 						
-				<a href="index.html">
+				<button onclick="location.href='index.html'" class="spare-link">
+					<p>instagram</p>
 					<i class="fa fa-instagram icon-md"></i>
-				</a>
+				</button>
 			</div>
 						
 			<div class="flex-center col-links">			
 				<div class="col-sm-4">
-					<p class="white">Partenaires</p>
+					<p class="text-footer">Partenaires</p>
 						
 					<ul>
 						<li><a href="voiture.com">voiture.com</a></li>
@@ -290,7 +294,7 @@
 				</div>
 							
 				<div class="col-sm-4">
-					<p class="white">Annuaires liste 1</p>
+					<p class="text-footer">Annuaires liste 1</p>
 								
 					<ul>
 						<li><a href="annuaireagence.com">annuaireagence.com</a></li>
@@ -302,7 +306,7 @@
 				</div>
 							
 				<div class="col-sm-4">
-					<p class="white">Annuaires liste 2</p>
+					<p class="text-footer">Annuaires liste 2</p>
 								
 					<ul>
 						<li><a href="ameliorerseo.com">ameliorerseo.com</a></li>

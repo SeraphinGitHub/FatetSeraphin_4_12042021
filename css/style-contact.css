@@ -44,7 +44,7 @@
 /* Formulaires - Contact */
 /* ========================================================================= */
 .W3C_Validator {
-    font-size: 0%;
+    display: none;
 }
 
 .formulaires-contact {
@@ -102,7 +102,7 @@
 /* Form Focus */
 /* ========================================================================= */
 .form-control:focus {
-    background-color: #f3976c4b;
+    background-color: #f3976c24;
     border-color: orangered;
     box-shadow: grey inset 0px 0px 5px, 0 0 5px black;
 }

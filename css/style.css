@@ -20,6 +20,12 @@ body {
     width: 100%;
 }
 
+.spare-link {
+    border: none;
+    background: transparent;
+}
+
+
 /* ========================================================================= */
 /* Header */
 /* ========================================================================= */
@@ -218,10 +224,14 @@ nav {
 
 .div2-section3 h2,
 .div2-section3 p,
-.div2-section3 a {
+.div2-section3 button {
     margin: 12px;
     padding: 0px;
     z-index: 10;
+}
+
+.div2-section3 button {
+    text-shadow: black 1.5px 1.5px 1.5px;
 }
 
 
@@ -288,7 +298,7 @@ footer {
     height: auto;
 }
 
-.social a {
+.social button {
     text-decoration: none;
     display: flex;
     flex-wrap: wrap;
@@ -296,13 +306,18 @@ footer {
     width: 80px;
 }
 
-.social a i {
-    color: white;
+.social button p {
+    display: none;
+}
+
+.social button i {
+    color: #404040;
     opacity: 60%;
 }
 
-.social a i:hover {
+.social button i:hover {
     opacity: 100%;
+    color: white;
 }
 
 .col-links {
