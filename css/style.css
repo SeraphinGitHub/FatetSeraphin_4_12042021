@@ -76,6 +76,11 @@ nav {
     margin-left: 15px;
 }
 
+.navbar-anchor figure img {
+    width: 215px;
+    height: 40px;
+}
+
 .navbar-collapse a {
     font-size: 18px;
 }
@@ -132,6 +137,11 @@ nav {
     align-content: space-between;
     position: absolute;
     height: 235px;
+}
+
+.div1-section1 figure img {
+    width: 100px;
+    height: 100px;
 }
 
 .btn {
@@ -260,8 +270,13 @@ nav {
     width: 270px;
 }
 
+.sub-portfolio a {
+    cursor: pointer;
+}
+
 .sub-portfolio img {
-    width: 100%;
+    width: 270px;
+    height: 270px;
 }
 
 .sub-portfolio a:hover {
@@ -306,10 +321,6 @@ footer {
     width: 80px;
 }
 
-.social button p {
-    display: none;
-}
-
 .social button i {
     color: #404040;
     opacity: 60%;
@@ -326,6 +337,17 @@ footer {
     justify-content: space-between;
     align-items: flex-start;
     width: 1000px;
+}
+
+.col-links li a {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    height: 48px;
+}
+
+.col-links li a:hover {
+    border-radius: 12px;
 }
 
 

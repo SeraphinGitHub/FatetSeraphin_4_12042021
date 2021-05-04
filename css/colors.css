@@ -7,15 +7,6 @@
     background-color: #FFFFFF;
 }
 
-.dark-blue {
-    background-color: #364577;
-}
-
-.bg-presentation,
-.bgc-atomic-tangerine {
-    background-color: #F3976C;
-}
-
 .lightbox-caption {
     color: black!important;
 }
@@ -37,8 +28,11 @@
 
 .section1-contact,
 .btn,
-.footer-contact {
-    background: #F3976C;
+.footer-contact,
+.bg-presentation,
+.ltc-atomic-tangerine,
+.bgc-atomic-tangerine {
+    background: #F3976C!important;
 }
 
 .btn {
@@ -46,21 +40,19 @@
 }
 
 .btn:hover,
-.btn:active {
+.btn:active,
+.col-links li a:hover {
     text-decoration: none;
     background: #c27956!important;
     color: #FFFFFF!important;
-}
-
-.ltc-atomic-tangerine {
-    color: #F3976C!important;
 }
 
 .ltc-atomic-tangerine:hover {
     color: #c27956!important;
 }
 
-.icon-dark-slate-blue {
+.icon-dark-slate-blue,
+.dark-blue {
     color: #364577!important;
     border-color: #364577!important;
 }
