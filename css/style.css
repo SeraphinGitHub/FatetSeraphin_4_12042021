@@ -79,10 +79,12 @@ nav {
 .navbar-anchor figure img {
     width: 215px;
     height: 40px;
+    -webkit-transform: translateZ(0);
 }
 
 .navbar-collapse a {
     font-size: 18px;
+    border-radius: 5px;
 }
 
 .navbar-collapse a:hover {
@@ -103,6 +105,11 @@ nav {
     height: 14px;
     width: 26px;
 }
+
+.hamburger-menu:hover {
+    cursor: pointer;
+}
+
 
 .hamburger-menu span {
     height: 2px;
